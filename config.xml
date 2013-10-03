@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.scorekeeper" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>EZ SCORE KEEPER</name>
+    <description>
+        An easy to use score keeper for any type of games with 2 players. Never lose track of people scores again
+    </description>
+    <author email="lnsflive@gmail.com" href="http://www.prjktstripes.com/">
+        Prjkt Stripes
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+	<preference name="permissions" value="none"/>
+	<preference name="android-minSdkVersion" value="7" />
+	<preference name="android-targetSdkVersion" value="11" />
+	<preference name="android-installLocation" value="auto" />
+	<icon src="icon.png" />
+</widget>
