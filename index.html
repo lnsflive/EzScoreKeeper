@@ -1,0 +1,39 @@
+<center>
+<h1>EZ SCORE KEEPER</h1>
+<table cellspacing="30">
+<tr>
+	<td><center><input type="text" size="7" value="PLAYER 1"  onClick="this.select();" style="color:red; font-size:20px; font-weight:bold; text-align:center;"></td>
+	<td><center><input type="text" size="7" value="PLAYER 2"  onClick="this.select();" style="color:blue; font-size:20px; font-weight:bold; text-align:center;"></td>
+</tr>
+<tr><td><center><input type="button" value="+" style="height: 50px; width: 100px;" onclick="player1();"></td><td><center><input type="button" value="+" style="height: 50px; width: 100px;" onclick="player2();"></td></tr>
+<tr><td><center><input type="text" id="player_1" value="0" style="height: 90px; width: 100px; font-size: 80px; text-align:center;"></td><td><center><input type="text" id="player_2"  value="0" style="height: 90px; width: 100px; font-size: 80px; text-align:center;"></td></tr>
+<tr><td><center><input type="button" value="-" style="height: 50px; width: 100px;" onclick="player11();"></td><td><center><input type="button" value="-" style="height: 50px; width: 100px;" onclick="player22();"></td></tr>
+<tr><td colspan="2"><center><input type="button" value="RESET" style="height: 50px; width: 240px;" onclick="reset();"></td></tr>
+
+</table>
+
+
+<script>
+function player1(){
+var x = document.getElementById("player_1");
+x.value++;
+};
+function player11(){
+var x = document.getElementById("player_1");
+x.value--;
+};
+function player2(){
+var x = document.getElementById("player_2");
+x.value++;
+};
+function player22(){
+var x = document.getElementById("player_2");
+x.value--;
+};
+function reset(){
+var x = document.getElementById("player_1");
+var y = document.getElementById("player_2");
+x.value = 0;
+y.value = 0;
+};
+</script>
