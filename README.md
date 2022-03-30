@@ -5,7 +5,7 @@
 
 An easy to use score keeper for any type of games with 2 players. Never lose track of people scores again
 
-Visit official app at: [EzScoreKeeper](https://play.google.com/store/apps/details?id=com.phonegap.scorekeeper).
+Visit official app at Google Play Store: [EzScoreKeeper](https://play.google.com/store/apps/details?id=com.phonegap.scorekeeper).
 
 
 ## Built With HTML, CSS, Javascript
